@@ -1,12 +1,12 @@
 
-var createGreeting = function (message, name) {
+var anonymousFunction = function (message, name) {
     return message + " - " + name;
 }
 
-console.log("Call createGreeting(): ", createGreeting("Hello World!", "Marcos Rosada"));
+console.log("Anonymous Function: ", anonymousFunction("Hello World!", "Marcos Rosada"));
 
-var arrowGreeting  = (message, name) => {
-    return message + " - " + name;
-}
 
-console.log("Call arrowGreeting: ", arrowGreeting("Hello World!", "Marcos Rosada"));
+
+var arrowFunction = (message, name) => message + " - " + name
+
+console.log("Arrow Function: ", arrowFunction("Hello World!", "Marcos Rosada"));
