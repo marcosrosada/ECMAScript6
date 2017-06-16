@@ -1,0 +1,25 @@
+{
+  "name": "ecmascript6",
+  "version": "1.0.0",
+  "description": "ECMAScript 2015 (ES6)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcosrosada/ECMAScript6.git"
+  },
+  "keywords": [
+    "Javascript",
+    "ECMAScript 2015",
+    "ECMAScript 6",
+    "BabelJS"
+  ],
+  "author": "Marcos Rosada <marcosfrosada@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcosrosada/ECMAScript6/issues"
+  },
+  "homepage": "https://github.com/marcosrosada/ECMAScript6#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
