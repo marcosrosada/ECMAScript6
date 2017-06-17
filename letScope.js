@@ -2,10 +2,10 @@ let message = "Hi";
 
 {
     let message = "Bye";
-    console.log("Local:", message );
+    console.log("Local:", message ); // Bye
 }
 
-console.log("Global:", message);
+console.log("Global:", message); // Hi
 console.log("");
 
 var fs = [];
@@ -18,5 +18,5 @@ for (let i = 0; i < 10; i++) {
 }
 
 fs.forEach( function(f) {
-    f();
+    f(); // 0 ... 10
 });
